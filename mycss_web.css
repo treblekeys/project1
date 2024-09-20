@@ -1,0 +1,106 @@
+.name_tag {
+    border-radius:20px;
+}
+
+.name_tag>table {
+    border-width:2px;
+    border-style:solid;
+    border-color:brown;
+    border-collapse:collapse;
+    text-align:left;
+}
+
+.name_tag>table span {
+    font-style:italic;
+}
+
+.name_tag>table th {
+    background-color:rgb(245, 215, 179);
+}
+
+.name_tag>img {
+    border-radius:20px;
+    padding:10px 0px 10px 0px;
+    height:400px;
+}
+
+.menu>h1 {
+    text-align:center;
+}
+
+.menu {
+    background-color:rgb(169, 202, 104);
+    border-radius:30px;
+}
+.menu>ol {
+    text-align:center;
+    list-style-position: inside;
+}
+
+#education {
+    background-color:aquamarine;
+    border-radius:20px;
+    text-align:center;
+}
+
+#education>p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+}
+
+#experiences {
+    background-color:cadetblue;
+    border-radius:20px;
+    text-align:center;
+    list-style-position:inside;
+}
+
+#programming {
+    background-color:cornflowerblue;
+    border-radius:20px;
+    text-align:center;
+    list-style-position: inside;
+}
+
+#interest {
+    background-color:rgb(156, 156, 250);
+    border-radius:20px;
+    text-align:center;
+}
+
+#interest>p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px; 
+    text-align: center;
+}
+
+#favourite {
+    background-color:rgb(239, 169, 169);
+    border-radius:20px;
+    text-align:center;
+}
+
+a:hover {
+    color:rgb(255, 255, 109);
+}
+
+#website {
+    background-color:rgb(228, 154, 127);
+    border-radius:20px;
+    text-align:center;
+    list-style-position:inside;
+}
+
+input[type=text] {
+    width:25%;
+}
+
+#summary {
+    background-color:darkkhaki;
+    border-radius:20px;
+    text-align:center;
+    list-style-position:inside
+}
