@@ -1,8 +1,33 @@
-.name_tag {
-    border-radius:20px;
+.top_menu {
+    background-color:bisque;
+    font-size:120%;
+    border-style:solid;
+    position:sticky;
+    top:0;
+    z-index:20;
 }
 
-.name_tag>table {
+#top_part {
+    background-image:linear-gradient(pink , rgb(149, 219, 149));
+}
+
+#middle_partone {
+    background-image:linear-gradient(rgb(149, 219, 149) , rgb(231, 234, 163));
+}
+
+#middle_parttwo {
+    background-image:linear-gradient(rgb(231, 234, 163), rgb(234, 168, 168))
+}
+
+#end_part {
+    background-image:linear-gradient(rgb(234, 168, 168), rgb(160, 202, 160))
+}
+
+#summary {
+    background-image:linear-gradient(rgb(160, 202, 160), rgb(227, 157, 234));
+}
+
+#profile_info>table {
     border-width:2px;
     border-style:solid;
     border-color:brown;
@@ -10,97 +35,81 @@
     text-align:left;
 }
 
-.name_tag>table span {
+#profile_info>table span {
     font-style:italic;
 }
 
-.name_tag>table th {
+#profile_info>table th {
     background-color:rgb(245, 215, 179);
 }
 
-.name_tag>img {
+
+#menu>h1 {
+    margin-top:100px;
+    margin-right:175px;
+    text-align:center;
+    font-family:"Lucida Console", "Courier New", monospace;
+}
+#menu>ol {
+    margin-left:100px;
+    margin-right:100px;
+    font-size:200%;
+    border-block:5px solid rgb(7, 105, 7);
+    background-color:rgb(133, 239, 133);
+    border-style:solid;
     border-radius:20px;
-    padding:10px 0px 10px 0px;
-    height:400px;
-}
-
-.menu>h1 {
-    text-align:center;
-}
-
-.menu {
-    background-color:rgb(169, 202, 104);
-    border-radius:30px;
-}
-.menu>ol {
-    text-align:center;
-    list-style-position: inside;
+    border-width:medium;
 }
 
 #education {
-    background-color:aquamarine;
-    border-radius:20px;
     text-align:center;
-}
-
-#education>p {
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    text-align: center;
+    font-size:150%;
+    background-color:rgb(244, 244, 162);
+    border-radius:20px;
 }
 
 #experiences {
-    background-color:cadetblue;
-    border-radius:20px;
     text-align:center;
-    list-style-position:inside;
-}
-
-#programming {
-    background-color:cornflowerblue;
+    font-size:150%;
+    background-color:rgb(155, 243, 242);
     border-radius:20px;
-    text-align:center;
     list-style-position: inside;
 }
 
-#interest {
-    background-color:rgb(156, 156, 250);
-    border-radius:20px;
+#programming {
     text-align:center;
+    font-size:150%;
+    background-color:rgb(227, 163, 243);
+    border-radius:20px;
+    list-style-position: inside;
 }
 
-#interest>p {
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px; 
-    text-align: center;
+.list-group-item {
+    background-color:rgb(238, 196, 238);
+}
+
+#interest {
+    text-align:center;
+    font-size:150%;
+    background-color:rgb(252, 203, 155);
+    border-radius:20px;
 }
 
 #favourite {
-    background-color:rgb(239, 169, 169);
-    border-radius:20px;
     text-align:center;
-}
-
-a:hover {
-    color:rgb(255, 255, 109);
+    font-size:150%;
+    background-color:rgb(155, 230, 147);
+    border-radius:20px;
 }
 
 #website {
-    background-color:rgb(228, 154, 127);
-    border-radius:20px;
     text-align:center;
-    list-style-position:inside;
-}
-
-input[type=text] {
-    width:25%;
+    font-size:150%;
+    background-color:rgb(173, 213, 245);
+    border-radius:20px;
 }
 
 #summary {
-    background-color:darkkhaki;
-    border-radius:20px;
     text-align:center;
-    list-style-position:inside
+    list-style-position: inside;
 }
