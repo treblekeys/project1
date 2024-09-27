@@ -1,21 +1,49 @@
-
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Profile Page</title>
-        <style>
-            #profile_info
-            {
-                background-color:bisque;
-                text-align:center;
-            }
-        </style>
+<head>
+    <title>Profile Page</title>
+    <style>
+        #profile_info {
+            text-align: center;
+        }
+    </style>
 
-        <link rel="stylesheet" href="mycss_web.css">
-        <link rel="stylesheet" href="mycss_tablet.css">
-    </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mycss_web2.css">
+    <link rel="stylesheet" href="mycss_tablet2.css">
+</head>
+<body>
+    <div class="top_menu">
+            <div class="row">
+                <div class="col-sm-1">
+                    <a href="#profile_info">Profile Information</a>
+                </div>
+                <div class="col-sm-1">
+                    <a href="#education">Education</a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#experiences">Work experiences/Internships</a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#programming">Programming Skills</a>
+                </div>
+                <div class="col-sm-1">
+                    <a href="#interest">General Interest</a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#favourite">Favourite songs, films, and TV shows</a>
+                </div>
+                <div class="col-sm-1">
+                    <a href="#website">Favourites websites</a>
+                </div>
+                <div class="col-sm-1">
+                    <a href="#summary">Summary</a>
+                </div>
+            </div>
+    </div>
 
-    <body>
-        <div class="name_tag" id="profile_info">
+    <div class="row" id="top_part">
+        <div class="col-sm-12" class="name_tag" id="profile_info">
             <h1 style="color:brown;">My Profile Page</h1>
             <table border="0.5" align="center">
                 <tr>
@@ -27,88 +55,79 @@
                     <th><span style="color:green">Computer Science</span></th>
                 </tr>
             </table>
-            <img src="pictureofme.jpg" width="25%" height="65%">
+            <img src="pictureofme.jpg" width="25%" height="20%" class="img-rounded">
         </div>
+    </div>
 
-        <div class="menu">
-            <h1>Menu</h1>
-            <ol>
-                <li><a href="#profile_info">Profile Information</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experiences">Work experiences/Internships</a></li>
-                <li><a href="#programming">Programming Skills</a></li>
-                <li><a href="#interest">General Interest</a></li>
-                <li><a href="#favourite">Favourite songs, films, and TV shows</a></li>
-                <li><a href="#website">Favourites websites</a></li>
-            </ol>
-        </div>
-
-        <div id="education">
+    <div class="row" id="middle_partone">
+        <div class="col-sm-6" id="education">
             <h3>Education</h3>
             <p>
-                I am a senior in St. John's University. I went to Brooklyn Technical High school for my high school. I am currently taking CUS courses such a CUS 1172, CUS 1151, CUS 1163,and CUS 1156. I am pursing my Bachelor's degree and thinking about going for my Master's.
+                I am a senior in St. John's University. I went to Brooklyn Technical High school for my high school. I am currently taking CUS courses such a CUS 1172, CUS 1151, CUS 1163, and CUS 1156. I am pursuing my Bachelor's degree and thinking about going for my Master's.
             </p>
         </div>
-
-        <div id="experiences">
+        <div class="col-sm-6" id="experiences">
             <h3>Work Experience/Internships</h3>
-             <ul>
+            <ul>
                 <li>Made a Java program to help solve a complex puzzle.</li>
                 <li>Volunteered at a library</li>
                 <li>No internship experience</li>
             </ul>
         </div>
-
-        <div id="programming">
+    </div>
+    <div class="row" id="middle_parttwo">
+        <div class="col-sm-6" id="programming">
             <h3>Programming Skills</h3>
-            <ul>
-                <li>Java: I have a good understanding of the language</li>
-                <li>C++: I have a basic understanding of the language</li>
+            <ul class="list-group" id="list_group">
+                <li class="list-group-item">Java: I have a good understanding of the language</li>
+                <li class="list-group-item">C++: I have a basic understanding of the language</li>
             </ul>
         </div>
-
-        <div id="interest">
+        <div class="col-sm-6" id="interest">
             <h3>General Interest</h3>
             <p>
-                I like listening to music and playing video games.I also like to take walks around parks.I enjoy learning new skills, such as learning how to write cursive or how to cook.
+                I like listening to music and playing video games. I also like to take walks around parks. I enjoy learning new skills, such as learning how to write cursive or how to cook.
             </p>
         </div>
+    </div>
 
-        <div id="favourite">
-            <h3>Favourite song, film, and TV show</h3>
-            <p>My fvourite song is "Easier to love you" by Porter Robinson</p>
-            <iframe width="400" height="250" src="https://www.youtube.com/embed/fJ4dKnu2IvY?si=MkVRbKgBvuPORUGX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>My favourite film is "Life is Beautiful" directed by Roberto Benigni</p>
-            <iframe width="400" height="250" src="https://www.youtube.com/embed/pAYEQP8gx3w?si=Ash06p9zHLfdOh7S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>My favourite TV show is "Arcane"</p>
-            <iframe width="400" height="250" src="https://www.youtube.com/embed/fXmAurh012s?si=ysZqwuPCilTJRk74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div id="end_part" class="row">
+            <div class="col-sm-6" id="favourite">
+                <h3>Favourite song, film, and TV show</h3>
+                <p>My fvourite song is "Easier to love you" by Porter Robinson</p>
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/fJ4dKnu2IvY?si=MkVRbKgBvuPORUGX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>My favourite film is "Life is Beautiful" directed by Roberto Benigni</p>
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/pAYEQP8gx3w?si=Ash06p9zHLfdOh7S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>My favourite TV show is "Arcane"</p>
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/fXmAurh012s?si=ysZqwuPCilTJRk74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+    
+            <div class="col-sm-6" id="website">
+                <h3>Favourite Websites</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">Wordle</a>
+                        <p>This website is a mini puzzle for the user where you try to guess the word by entering words and eliminating letters.</p>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                        <p>This website is used to watch videos</p>
+                    </li>
+                    <li>
+                        <a href="https://minesweeperonline.com/" target="_blank">Minesweeper</a>
+                        <p>This website is a mini game where the user tries to click every square except for the squares with the mines.</p>
+                    </li>
+                        <p>Google is one of my favourite websites, since it allows me to search the internet for anything I want.</p>
+                        <img src="https://cdn.logojoy.com/wp-content/uploads/20230801145635/Google_logo_2013-2015-600x206.png" width="30%" height="20%">
+                        <form action="https://www.google.com/search" method="get">
+                            <input type="text" name="q" placeholder="Search Google">
+                            <input type="submit" value="Search" class="btn">
+                        </form>
+                </ul>
+            </div>
+    
         </div>
-
-        <div id="website">
-            <h3>Favourite Websites</h3>
-            <ul>
-                <li>
-                    <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">Wordle</a>
-                    <p>This website is a mini puzzle for the user where you try to guess the word by entering words and eliminating letters.</p>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank">Youtube</a>
-                    <p>This website is used to watch videos</p>
-                </li>
-                <li>
-                    <a href="https://minesweeperonline.com/" target="_blank">Minesweeper</a>
-                    <p>This website is a mini game where the user tries to click every square except for the squares with the mines.</p>
-                </li>
-                    <p>Google is one of my favourite websites, since it allows me to search the internet for anything I want.</p>
-                    <img src="https://cdn.logojoy.com/wp-content/uploads/20230801145635/Google_logo_2013-2015-600x206.png" width="30%" height="20%">
-                    <form action="https://www.google.com/search" method="get">
-                        <input type="text" name="q" placeholder="Search Google">
-                        <input type="submit" value="Search">
-                    </form>
-            </ul>
-        </div>
-
-        <div id="summary">
+    <div id="summary">
             <h3>Project summary</h3>
             <ul>
                 <li>
@@ -116,6 +135,6 @@
                     <p>In this project, I created a HTML page which includes various information about mr, such as my interests and skills in programming. I utilize many elements of HTML, such as lists and paragraphs to create the page.</p>
                 </li>
             </ul>
-        </div>
+    </div> 
     </body>
 </html>
